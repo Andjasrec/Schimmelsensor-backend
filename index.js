@@ -68,6 +68,7 @@ mqttclient.on('connect', function () {
     if (!err) {
       console.log("Verbunden mit Mqtt");
     }
+    console.log(err)
   })
 })
 
